@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Luckiest Guy Regular'), local('LuckiestGuy-Regular'), url(https://fonts.gstatic.com/s/luckiestguy/v10/_gP_1RrxsjcxVyin9l9n_j2hTd52.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgba(30, 139, 195, 1);
+    color: rgba(231, 76, 60, 1);
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    padding: 1rem;
+}
+
+nav spam{
+    font-size: 2rem;
+    margin-right: 2rem;
+    font-family: 'Luckiest Guy';
+}
+
+@media only screen and (max-width: 550px){
+    nav spam{
+        font-size: 1rem;
+        margin-right: 2.5rem;
+    }
+}
+
+#banner{
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    margin: 0rem;
+}
+
+#banner h1{
+    background-color:  rgba(30, 139, 195, 0.5);
+    text-align: center;
+    color: rgba(231, 76, 60, 1);
+    margin-top: 0rem;
+    position: relative;
+    top: 10rem;
+    font-family: 'Luckiest Guy';
+    font-size: 4rem;
+}
+
+.description{
+    background-color:  rgba(30, 139, 195, 1);
+    font-family: 'Luckiest Guy';
+    padding: 3rem;
+}
+
+.description h3{
+    color: rgba(44, 62, 80, 1);
+    margin-top: 0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimony{
+    background-color: rgba(231, 76, 60, 1);
+    font-family: 'Luckiest Guy';
+    padding: 2rem;
+}
+
+.testimony p{
+    margin-top: 0rem;
+}
+
+img{
+    width: 12.5rem;
+    height: 10rem;
+    border: 0.5rem solid rgba(44, 62, 80, 1);
+}
+
+.gallery2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(30, 139, 195, 1);
+    padding: 2rem;
+    flex-wrap: wrap;
+}
