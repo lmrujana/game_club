@@ -15,8 +15,8 @@ body{
 }
 
 header{
-    background-color: rgba(30, 139, 195, 1);
-    color: rgba(231, 76, 60, 1);
+    background-color: #5ACFC9;
+    color: #f3533a;
     height: auto;
     width: 100%;
 }
@@ -48,9 +48,9 @@ nav spam{
 }
 
 #banner h1{
-    background-color:  rgba(30, 139, 195, 0.5);
+    background-color:  #BAD879;
     text-align: center;
-    color: rgba(231, 76, 60, 1);
+    color: #FA9F42;
     margin-top: 0rem;
     position: relative;
     top: 10rem;
@@ -59,13 +59,13 @@ nav spam{
 }
 
 .description{
-    background-color:  rgba(30, 139, 195, 1);
+    background-color:  #5ACFC9;
     font-family: 'Luckiest Guy';
     padding: 3rem;
 }
 
 .description h3{
-    color: rgba(44, 62, 80, 1);
+    color: #f3533a;
     margin-top: 0;
 }
 
@@ -76,7 +76,7 @@ nav spam{
 }
 
 .testimony{
-    background-color: rgba(231, 76, 60, 1);
+    background-color: #BAD879;
     font-family: 'Luckiest Guy';
     padding: 2rem;
 }
@@ -88,13 +88,13 @@ nav spam{
 img{
     width: 12.5rem;
     height: 10rem;
-    border: 0.5rem solid rgba(44, 62, 80, 1);
+    border: 0.5rem solid #BAD879;
 }
 
 .gallery2{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(30, 139, 195, 1);
+    background-color: #5ACFC9;
     padding: 2rem;
     flex-wrap: wrap;
 }
